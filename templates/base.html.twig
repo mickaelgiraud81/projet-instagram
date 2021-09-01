@@ -8,13 +8,15 @@
         {% block stylesheets %}
             {#{{ encore_entry_link_tags('app') }}#}
         {% endblock %}
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
         {% block javascripts %}
             {#{{ encore_entry_script_tags('app') }}#}
         {% endblock %}
     </head>
     <body>
-    papa
-        {% block body %}{% endblock %}
+        {% block body %}
+            <h1> Bienvenue sur la page d'accueil</h1>
+        {% endblock %}
     </body>
 </html>
