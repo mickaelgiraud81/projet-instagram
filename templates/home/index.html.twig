@@ -1,6 +1,12 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello HomeController!{% endblock %}
+{% block content %}
+<h1>Bonjour {{ name  }}</h1>
+Ceci est ma première page
+{% endblock %}
+
+
+{# {% block title %}Hello HomeController!{% endblock %}
 
 {% block body %}
 <style>
@@ -9,7 +15,7 @@
 </style>
 
 <div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+    <h1>hello {{ controller_name }}! ✅</h1>
 
     This friendly message is coming from:
     <ul>
@@ -17,4 +23,4 @@
         <li>Your template at <code><a href="{{ 'C:/wamp64/www/projet-instagram/templates/home/index.html.twig'|file_link(0) }}">templates/home/index.html.twig</a></code></li>
     </ul>
 </div>
-{% endblock %}
+{% endblock %} #}
